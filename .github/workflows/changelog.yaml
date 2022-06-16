@@ -3,7 +3,7 @@ name: Changelog
 on:
   push:
     tags:
-      - '*'
+      - v*
 
 jobs:
   generate_changelog:
